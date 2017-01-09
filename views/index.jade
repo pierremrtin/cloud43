@@ -1,0 +1,62 @@
+extends layout
+
+block content
+
+ section.hero.is-primary.is-large.header-image
+      .hero-head
+        header.nav
+          .container
+            .nav-left
+              a.nav-item(href='index.html')
+                img(src='images/cloud.png', alt='Logo')
+            span.nav-toggle
+              span
+              span
+              span
+            .nav-right.nav-menu
+              a.nav-item.is-active
+                | Home
+              a.nav-item
+                | Cloud
+              a.nav-item
+                | Pierre
+              span.nav-item
+                a.button.is-info.is-outlined.is-inverted
+                  span.icon
+                    i.fa.fa-github
+                  span Download
+  div.logo
+      a(href="/")
+        img(src="images/cloud.png" alt="Chef of the Day" height="100" width="100")
+    .hero-body
+        .container.has-text-centered
+          h1.title.is-1
+            | Hi
+          h2.subtitle.is-4
+            | Welcome to cloud.
+            br
+            br
+            br
+            br
+            br
+            br
+
+          
+
+  footer.w3-container.w3-padding-8.w3-light-grey.w3-center.w3-opacity.w3-xlarge(style="margin: 0px")
+      br
+      a(href="https://github.com/pierremrtin")
+      i.fa.fa-github.w3-hover-text-yellow
+      a(href="https://www.facebook.com/pierremrtin")
+      i.fa.fa-facebook-official.w3-hover-text-indigo
+      a(href="https://www.instagram.com/pierremrtin")
+      i.fa.fa-instagram.w3-hover-text-purple
+      i.fa.fa-pinterest-p.w3-hover-text-red
+      a(href="https://twitter.com/pierremrtin")
+      i.fa.fa-twitter.w3-hover-text-light-blue
+      i.fa.fa-linkedin.w3-hover-text-indigo
+      p 
+        h6
+          span © CLOUD
+
+      br
